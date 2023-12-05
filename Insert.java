@@ -13,7 +13,7 @@ public class Insert
 			while(true) {
 				System.out.println();
 				System.out.println("1.program 2.program_date 3.customer 4.priority_order 5.score 6.takes 7.teacher 8.뒤로가기");
-				System.out.print("원하는 테이블 번호를 선택하세요 : ");
+				System.out.print("삽입하고싶은 테이블 번호를 선택하세요 : ");
 			
 				String str = sc.next();
 			

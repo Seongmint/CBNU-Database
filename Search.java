@@ -32,7 +32,7 @@ public class Search{
 			//칼럼값 가져오기
 			while(rs3.next()) {
 				for(int i=1; i<=count; i++) 
-					System.out.print(rs3.getObject(i)+"\t");
+					System.out.print(rs3.getObject(i)+"\t\t");
 				System.out.println();
 				
 			}
