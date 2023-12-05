@@ -51,11 +51,6 @@ public class Test
 					Search search = new Search();
 					search.excute();
 					break;
-				case "4":
-					System.out.println("이외의 쿼리");
-					other other = new other();
-					other.excute();
-					break;
 				default:
 					System.out.println("잘못 입력하셨습니다.");
 					System.out.println();
